@@ -13,39 +13,35 @@ const {
   title,
   total_followers = "1.8M Followers",
   description = "I believe that fashion is a way to express yourself and have fun, so I'm not afraid to experiment with different trends and styles.",
-  social_media_handle = "That Boho Girl",
+  social_media_handle = "thatbohogirl",
 } = Astro.props;
 ---
 
 <section class="self-stretch flex flex-col max-md:max-w-full">
   <header class="bg-section-red self-stretch flex flex-col">
-    <div class="self-center w-[511px] max-w-full">
-      <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-        <div
-          class="flex flex-col items-stretch w-[45%] max-md:w-full max-md:ml-0"
-        >
-          <div class="flex flex-col mt-40 max-md:mt-12">
-            <p class="text-text-pink text-lg w-52 max-w-full">
-              {description}
-            </p>
-            <p class="text-white-follower text-lg w-60 max-w-full mt-5">
-              {total_followers}
-            </p>
-            <h1 class="text-white-follower text-xl font-bold mt-4">
-              @{social_media_handle}
-            </h1>
-          </div>
+    <div
+      class="self-center items-end flex max-w-[511px] w-full gap-[50px] min-h-[400px]"
+    >
+      <div class="flex flex-col h-full pb-[38px] max-w-[210px] w-full">
+        <div class="flex flex-col">
+          <p class="text-text-pink text-lg w-full max-w-14">
+            {description}
+          </p>
+          <p class="text-white-follower text-lg w-full mt-[14px]">
+            {total_followers}
+          </p>
+          <h1 class="text-white-follower text-xl font-bold mt-[6px]">
+            @{social_media_handle}
+          </h1>
         </div>
-        <div
-          class="flex flex-col-reverse items-stretch w-[55%] max-md:w-full max-md:ml-0"
-        >
-          <Image
-            src={PersonLandingImage}
-            alt=`${title} image`
-            width="260"
-            height="360"
-          />
-        </div>
+      </div>
+      <div class="flex flex-col-reverse items-stretch w-auto">
+        <Image
+          src={PersonLandingImage}
+          alt=`${title} image`
+          width="260"
+          height="360"
+        />
       </div>
     </div>
   </header>
