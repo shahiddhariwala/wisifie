@@ -5,6 +5,10 @@ export default {
     extend: {
       colors: {
         "section-red": "#753032",
+        "text-pink": "#B47C7B",
+        white: {
+          follower: "#FFEDEE",
+        },
       },
     },
   },
