@@ -1,0 +1,54 @@
+---
+import { Image } from "astro:assets";
+import PersonLandingImage from "../contents/images/boho-title-image.svg";
+
+interface Props {
+  title?: string;
+  description?: string;
+  total_followers?: string;
+  social_media_handle?: string;
+}
+
+const {
+  title,
+  total_followers = "1.8M Followers",
+  description = "I believe that fashion is a way to express yourself and have fun, so I'm not afraid to experiment with different trends and styles.",
+  social_media_handle = "That Boho Girl",
+} = Astro.props;
+---
+
+<section class="self-stretch flex flex-col max-md:max-w-full">
+  <header
+    class="bg-red-900 self-stretch flex flex-col pt-10 px-5 max-md:max-w-full"
+  >
+    <div class="self-center w-[511px] max-w-full">
+      <div class="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
+        <div
+          class="flex flex-col items-stretch w-[45%] max-md:w-full max-md:ml-0"
+        >
+          <div class="flex flex-col mt-40 max-md:mt-12">
+            <p class="text-stone-400 text-lg w-52 max-w-full">
+              {description}
+            </p>
+            <p class="text-rose-50 text-lg w-60 max-w-full mt-5">
+              {total_followers}
+            </p>
+            <h1 class="text-rose-50 text-xl font-bold mt-4">
+              @{social_media_handle}
+            </h1>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-stretch w-[55%] ml-5 max-md:w-full max-md:ml-0"
+        >
+          <Image
+            src={PersonLandingImage}
+            alt=`${title} image`
+            width="260"
+            height="360"
+          />
+        </div>
+      </div>
+    </div>
+  </header>
+</section>
