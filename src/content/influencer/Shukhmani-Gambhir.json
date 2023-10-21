@@ -10,7 +10,7 @@
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image2.svg",
       "hashtag": "#EthnicLuncheon",
-      "is_dm": true,
+      "is_dm": false,
       "buy_link": "",
       "price": 1200,
       "buy_tagline": "Buy This Saree",
@@ -19,55 +19,55 @@
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image3.svg",
       "hashtag": "#FloralFlush",
-      "is_dm": true,
+      "is_dm": false,
       "buy_link": "",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra",
+      "buy_tagline": "Buy This Dress",
       "dm_tagline": "DM for purchase"
     },
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image4.svg",
-      "hashtag": "#FloralFlush",
-      "is_dm": true,
+      "hashtag": "#EthnicLuncheon",
+      "is_dm": false,
       "buy_link": "",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra",
+      "price": 3499,
+      "buy_tagline": "Buy This Saree",
       "dm_tagline": "DM for purchase"
     },
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image5.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#EthnicDinnerDiaries",
       "is_dm": true,
       "buy_link": "",
-      "price": 1200,
+      "price": 1199,
       "buy_tagline": "Buy The Sports Bra",
-      "dm_tagline": "DM for purchase"
+      "dm_tagline": "DM To Buy The Skirt"
     },
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image6.svg",
-      "hashtag": "#EthnicLuncheon",
-      "is_dm": true,
+      "hashtag": "#VelvetVierra",
+      "is_dm": false,
       "buy_link": "",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra",
+      "price": 48000,
+      "buy_tagline": "Buy This Dress",
       "dm_tagline": "DM for purchase"
     },
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image7.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#EthnicDinnerDiaries",
       "is_dm": true,
       "buy_link": "",
-      "price": 1200,
+      "price": 0,
       "buy_tagline": "Buy The Sports Bra",
-      "dm_tagline": "DM for purchase"
+      "dm_tagline": "DM To Buy This Dress"
     },
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image8.svg",
-      "hashtag": "#EthnicLuncheon",
-      "is_dm": true,
+      "hashtag": "#FolkFunk",
+      "is_dm": false,
       "buy_link": "",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra",
+      "price": 2599,
+      "buy_tagline": "Buy This Dress",
       "dm_tagline": "DM for purchase"
     }
   ]
