@@ -1,6 +1,6 @@
 ---
 import AccessoriesImage from "./AccessoriesImage.astro";
-const { accessory } = Astro.props;
+const { accessory, index } = Astro.props;
 
 const {
   image_url,
@@ -9,29 +9,32 @@ const {
   buy_link = "",
   price = 1200,
   buy_tagline = "Buy The Sports Bra",
+  dm_tagline = "DM To Buy This Dress",
 } = accessory;
+
+const isEven = (index + 1) % 2 == 0;
 ---
 
 <div
-  class="flex self-center items-end max-w-[595px] w-full gap-12 justify-center"
+  class=`flex self-center items-end max-w-[595px] w-full gap-12 justify-center ${isEven ? "flex-row-reverse": ""}`
 >
-  <div class="flex flex-col items-center">
+  <div class=`flex  items-center  ${isEven ? "flex-col-reverse": "flex-col"}`>
     <AccessoriesImage image_url={image_url} alt={hashtag} />
     <div class="text-bold-pink text-base font-semibold">{hashtag}</div>
   </div>
   <div class="flex flex-col h-full gap-9 pb-20 text-[17px] font-followers">
     <div class="flex flex-col drop-shadow-xl">
-      <a class="bg-dark-pink rounded-full px-4 py-3 z-10" href={buy_link}>
+      <a class="bg-dark-pink rounded-full px-4 py-3 z-10 w-max" href={buy_link}>
         {buy_tagline}
       </a>
-      <div class="bg-[#fff] rounded-full px-4 py-3 w-max ml-auto -mt-2 -mr-8">
+      <div class="bg-[#fff] rounded-full px-4 py-3 w-max ml-auto -mt-2 -mr-2">
         Rs. {price}
       </div>
     </div>
     {
       is_dm && (
-        <a class="bg-dark-pink rounded-full px-4 py-3 drop-shadow-xl">
-          DM To Buy The Skirt
+        <a class="bg-dark-pink rounded-full px-4 py-3 drop-shadow-xl ml-2">
+          {dm_tagline}
         </a>
       )
     }

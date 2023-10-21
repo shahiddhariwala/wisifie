@@ -4,5 +4,9 @@ const { accessories } = Astro.props;
 ---
 
 <div class="py-12 flex w-full flex-col gap-6">
-  {accessories?.map((acc) => <EachAccessories accessory={acc} />)}
+  {
+    accessories?.map((acc, index) => (
+      <EachAccessories accessory={acc} index={index} />
+    ))
+  }
 </div>
