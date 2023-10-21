@@ -8,6 +8,7 @@ const influencer = defineCollection({
     description: z.string(),
     total_followers: z.string(),
     image_url: z.string(),
+    quote_url: z.string(),
     order: z.number(),
     accessories: z.array(
       z.object({

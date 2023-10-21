@@ -3,7 +3,7 @@ import EachAccessories from "./EachAccessories.astro";
 const { accessories } = Astro.props;
 ---
 
-<div class="py-12 flex w-full flex-col gap-6">
+<div class="pt-12 pb-20 flex w-full flex-col gap-6">
   {
     accessories?.map((acc, index) => (
       <EachAccessories accessory={acc} index={index} />
