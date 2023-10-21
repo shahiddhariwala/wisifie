@@ -1,0 +1,67 @@
+{
+  "order": 4,
+  "name": "Srishty Jain",
+  "social_media_handle": "Srishty Jain",
+  "description": "Let’s make styling a therapy. I am a Dog mum, a Tea addict and an Outfit repeater.",
+  "total_followers": "1.7M Followers",
+  "image_url": "/assets/images/Srishty-Jain/image1.svg",
+  "quote_url":"/assets/images/Srishty-Jain/quote.svg",
+  "accessories": [
+    {
+      "image_url": "/assets/images/Srishty-Jain/image2.svg",
+      "hashtag": "#EthnicLuncheon",
+      "is_dm": true,
+      "buy_link": "",
+      "price": 1200,
+      "buy_tagline": "Buy The Sports Bra"
+    },
+    {
+      "image_url": "/assets/images/Srishty-Jain/image3.svg",
+      "hashtag": "#FloralFlush",
+      "is_dm": true,
+      "buy_link": "",
+      "price": 1200,
+      "buy_tagline": "Buy The Sports Bra"
+    },
+    {
+      "image_url": "/assets/images/Srishty-Jain/image4.svg",
+      "hashtag": "#EthnicLuncheon",
+      "is_dm": true,
+      "buy_link": "",
+      "price": 1200,
+      "buy_tagline": "Buy The Sports Bra"
+    },
+    {
+      "image_url": "/assets/images/Srishty-Jain/image5.svg",
+      "hashtag": "#EthnicLuncheon",
+      "is_dm": true,
+      "buy_link": "",
+      "price": 1200,
+      "buy_tagline": "Buy The Sports Bra"
+    },
+    {
+      "image_url": "/assets/images/Srishty-Jain/image6.svg",
+      "hashtag": "#EthnicLuncheon",
+      "is_dm": true,
+      "buy_link": "",
+      "price": 1200,
+      "buy_tagline": "Buy The Sports Bra"
+    },
+    {
+      "image_url": "/assets/images/Srishty-Jain/image7.svg",
+      "hashtag": "#EthnicLuncheon",
+      "is_dm": true,
+      "buy_link": "",
+      "price": 1200,
+      "buy_tagline": "Buy The Sports Bra"
+    },
+    {
+      "image_url": "/assets/images/Srishty-Jain/image8.svg",
+      "hashtag": "#EthnicLuncheon",
+      "is_dm": true,
+      "buy_link": "",
+      "price": 1200,
+      "buy_tagline": "Buy The Sports Bra"
+    }
+  ]
+}
