@@ -5,7 +5,7 @@ interface Props {
   description?: string;
   total_followers?: string;
   social_media_handle?: string;
-  id: string;
+  id?: string;
   image_url: string;
 }
 
@@ -14,12 +14,8 @@ const {
   total_followers = "1.8M Followers",
   description = "I believe that fashion is a way to express yourself and have fun, so I'm not afraid to experiment with different trends and styles.",
   social_media_handle = "thatbohogirl",
-  id,
   image_url,
-  ...rest
 } = Astro.props;
-
-console.log({ rest });
 ---
 
 <section class="self-stretch flex flex-col max-md:max-w-full">

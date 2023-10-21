@@ -1,0 +1,12 @@
+---
+const { image_url, alt = "A description of my image." } = Astro.props;
+---
+
+<img
+  src={image_url}
+  width="240px"
+  height="352px"
+  decoding="async"
+  loading="lazy"
+  alt={alt}
+/>

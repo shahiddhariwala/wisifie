@@ -1,15 +1,12 @@
 ---
 import PersonLandingSection from "../components/PersonLandingSection.astro";
+import AccessoriesSection from "../components/AccessoriesSection.astro";
 
 const { influencer } = Astro.props;
-
-console.log({ influencer });
 ---
 
 <div class="bg-orange-100 flex flex-col">
-  <PersonLandingSection
-    description={influencer?.data?.description}
-    {...influencer?.data}
-  />
+  <PersonLandingSection {...influencer?.data} />
+  <AccessoriesSection accessories={influencer?.data?.accessories} />
   <slot />
 </div>

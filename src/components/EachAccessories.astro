@@ -1,0 +1,25 @@
+---
+import AccessoriesImage from "./AccessoriesImage.astro";
+const { accessory } = Astro.props;
+
+const {
+  image_url,
+  hashtag = "#EthnicLuncheon",
+  is_dm = true,
+  buy_link = "",
+  price = 1200,
+  buy_tagline = "Buy The Sports Bra",
+} = accessory;
+console.log({ accessory });
+---
+
+<div>
+  <div>
+    <AccessoriesImage image_url={image_url} />
+    <div>{hashtag}</div>
+  </div>
+  <div>
+    <div></div>
+    {is_dm && <div class="bg-dark-pink rounded-full">DM To Buy The Skirt</div>}
+  </div>
+</div>

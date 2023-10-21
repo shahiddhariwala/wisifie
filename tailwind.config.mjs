@@ -11,6 +11,8 @@ export default {
       colors: {
         "section-red": "#753032",
         "text-pink": "#B47C7B",
+        "light-pink": "#F5E2CF",
+        "dark-pink": "#CCA298",
         white: {
           follower: "#FFEDEE",
         },

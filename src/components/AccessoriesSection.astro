@@ -1,0 +1,8 @@
+---
+import EachAccessories from "./EachAccessories.astro";
+const { accessories } = Astro.props;
+---
+
+<div class="bg-light-pink">
+  {accessories?.map((acc) => <EachAccessories accessory={acc} />)}
+</div>
