@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
@@ -13,6 +15,15 @@ export default {
           follower: "#FFEDEE",
         },
       },
+    },
+    fontFamily: {
+      sans: [
+        "Quicksand",
+        '"Quicksand Variable"',
+        "Inter",
+        ...defaultTheme.fontFamily.sans,
+      ],
+      followers: ["Inter", ...defaultTheme.fontFamily.sans],
     },
   },
   plugins: [],
