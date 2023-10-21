@@ -19,14 +19,14 @@ const isEven = (index + 1) % 2 == 0;
 ---
 
 <div
-  class=`flex items-center justify-center p-5 self-center md:items-end max-w-[595px] w-full md:gap-12 gap-3 md:justify-start z-30 ${isEven ? "flex-row-reverse": ""}`
+  class=`flex items-center justify-center px-5 md:px-0 self-center md:items-end max-w-[595px] w-full md:gap-12 gap-3 md:justify-start z-30 ${isEven ? "flex-row-reverse": ""}`
 >
   <div class=`flex  items-center  ${isEven ? "flex-col-reverse": "flex-col"}`>
     <AccessoriesImage image_url={image_url} alt={hashtag} />
     <div class="text-bold-pink text-base font-semibold">{hashtag}</div>
   </div>
   <div
-    class="flex flex-col gap-9 text-[17px] font-followers h-[380px] justify-center"
+    class="flex flex-col gap-9 md:text-[17px] text-sm font-followers md:h-[380px] justify-center"
   >
     {
       buy_tagline && (
