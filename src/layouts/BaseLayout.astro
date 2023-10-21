@@ -1,0 +1,42 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      property="og:title"
+      content="Discover Your Dream Dress at Wisifie, Where Wishes Come to Life"
+    />
+    <meta
+      property="og:description"
+      content="Wisifie is the premier destination for finding your dream dress. With a wide selection of styles, sizes, and colors, we have the perfect dress for every bride. Whether you're looking for a classic ballgown, a romantic mermaid silhouette, or a modern sheath, you're sure to find the dress of your dreams at Wisifie. Our team of experienced stylists is here to help you find the perfect dress for your wedding day, and we're committed to providing you with an unforgettable shopping experience. Visit Wisifie today and start planning your dream wedding!"
+    />
+    <meta property="og:image" content="/favicon.svg" />
+    <meta property="og:url" content="https://www.wisifie.com/" />
+
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
+<style is:global>
+  :root {
+    --listing-gradient: linear-gradient(
+      189deg,
+      #a36261 -7.12%,
+      rgba(163, 98, 97, 0) 40.81%
+    );
+  }
+</style>

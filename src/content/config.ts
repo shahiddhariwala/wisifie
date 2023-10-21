@@ -1,7 +1,7 @@
 import { z, defineCollection } from 'astro:content';
 
-const influencersCollection = defineCollection({
-  type: 'content', // v2.5.0 and later
+const influencer = defineCollection({
+  type: 'data', // v2.5.0 and later
   schema: z.object({
     name: z.string(),
     social_media_handle: z.string(),
@@ -21,5 +21,5 @@ const influencersCollection = defineCollection({
 });
 
 export const collections = {
-  'influencer': influencersCollection,
+  influencer
 };

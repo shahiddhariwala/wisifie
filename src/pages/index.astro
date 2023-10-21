@@ -1,12 +1,19 @@
 ---
-import Layout from "../layouts/Layout.astro";
-// import Card from "../components/Card.astro";
+import Layout from "../layouts/BaseLayout.astro";
+import InfluencerLayout from "../layouts/InfluencerLayout.astro";
+
+import { getCollection, getEntry } from "astro:content";
+
+const allInFluencers = await getCollection("influencer");
+console.log({ allInFluencers });
 ---
 
-<Layout title="@That Boho Girl">
-  <main>
-    <div>List 2</div>
-  </main>
+<Layout title="Wisifie.com">
+  <InfluencerLayout>
+    <main>
+      <div>List 2</div>
+    </main>
+  </InfluencerLayout>
 </Layout>
 
 <style>
