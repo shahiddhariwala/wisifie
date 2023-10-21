@@ -2,15 +2,18 @@
 import Layout from "../layouts/BaseLayout.astro";
 import InfluencerLayout from "../layouts/InfluencerLayout.astro";
 
-import { getCollection, getEntry } from "astro:content";
+import { getCollection } from "astro:content";
 
 const allInFluencers = await getCollection("influencer");
-console.log({ allInFluencers });
+const sortedInfluencers = allInFluencers?.sort(
+  (a, b) => a?.data?.order - b?.data?.order
+);
+console.log({ sortedInfluencers });
 ---
 
 <Layout title="Wisifie.com">
   {
-    allInFluencers?.map((influencer) => (
+    sortedInfluencers?.map((influencer) => (
       <InfluencerLayout influencer={influencer} />
     ))
   }
