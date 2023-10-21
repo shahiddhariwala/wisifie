@@ -1,12 +1,18 @@
 ---
+import { Image } from "astro:assets";
 import EachAccessories from "./EachAccessories.astro";
+import BgSpiralImage from "./BgSpiralImage.astro";
 const { accessories } = Astro.props;
 ---
 
 <div class="pt-12 pb-20 flex w-full flex-col gap-6">
   {
     accessories?.map((acc, index) => (
-      <EachAccessories accessory={acc} index={index} />
+      <>
+        <EachAccessories accessory={acc} index={index} />
+        {index === 1 && <BgSpiralImage order="2" />}
+        {index === 3 && <BgSpiralImage order="3" />}
+      </>
     ))
   }
 </div>

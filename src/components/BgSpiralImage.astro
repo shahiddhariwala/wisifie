@@ -1,0 +1,24 @@
+---
+const { order } = Astro.props;
+// w-96 h-96 origin-top-left rotate-[-7.21deg] mix-blend-overlay
+---
+
+<div class="relative h-0 w-full flex flex-col">
+  <img
+    src={`/assets/spiral-bg-${order}.svg`}
+    alt="sprial"
+    class="rotate-[-7.21deg] mix-blend-overlay absolute -mt-[25%] left-1/2 transform -translate-x-1/2"
+  />
+  <div class="linear-bg-blur left-1/2 transform -translate-x-1/2"></div>
+</div>
+<style>
+  .linear-bg-blur {
+    position: absolute;
+    height: 100px;
+    width: 50%;
+    border-radius: 32px;
+    opacity: 0.6;
+    background: #a36261;
+    filter: blur(60.5px);
+  }
+</style>
