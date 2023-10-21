@@ -5,7 +5,7 @@
   "description": "Let’s make styling a therapy. I am a Dog mum, a Tea addict and an Outfit repeater.",
   "total_followers": "133K Followers",
   "image_url": "/assets/images/Aksha-Pathak/image1.svg",
-  "quote_url":"/assets/images/Aksha-Pathak/quote.svg",
+  "quote_url": "/assets/images/Aksha-Pathak/quote.svg",
   "accessories": [
     {
       "image_url": "/assets/images/Aksha-Pathak/image2.svg",
@@ -13,7 +13,8 @@
       "is_dm": true,
       "buy_link": "",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase"
     },
     {
       "image_url": "/assets/images/Aksha-Pathak/image3.svg",
@@ -21,7 +22,8 @@
       "is_dm": true,
       "buy_link": "",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase"
     },
     {
       "image_url": "/assets/images/Aksha-Pathak/image4.svg",
@@ -29,7 +31,8 @@
       "is_dm": true,
       "buy_link": "",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase"
     },
     {
       "image_url": "/assets/images/Aksha-Pathak/image5.svg",
@@ -37,7 +40,8 @@
       "is_dm": true,
       "buy_link": "",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase"
     },
     {
       "image_url": "/assets/images/Aksha-Pathak/image6.svg",
@@ -45,7 +49,8 @@
       "is_dm": true,
       "buy_link": "",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase"
     },
     {
       "image_url": "/assets/images/Aksha-Pathak/image7.svg",
@@ -53,7 +58,8 @@
       "is_dm": true,
       "buy_link": "",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase"
     },
     {
       "image_url": "/assets/images/Aksha-Pathak/image8.svg",
@@ -61,7 +67,8 @@
       "is_dm": true,
       "buy_link": "",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase"
     }
   ]
 }

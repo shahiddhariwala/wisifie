@@ -17,7 +17,8 @@ const influencer = defineCollection({
         is_dm: z.boolean(),
         buy_link: z.string(),
         price: z.number(),
-        buy_tagline: z.string()
+        buy_tagline: z.string(),
+        dm_tagline: z.string()
       })
     )
   }),
