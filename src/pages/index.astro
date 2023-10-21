@@ -9,11 +9,11 @@ console.log({ allInFluencers });
 ---
 
 <Layout title="Wisifie.com">
-  <InfluencerLayout>
-    <main>
-      <div>List 2</div>
-    </main>
-  </InfluencerLayout>
+  {
+    allInFluencers?.map((influencer) => (
+      <InfluencerLayout influencer={influencer} />
+    ))
+  }
 </Layout>
 
 <style>

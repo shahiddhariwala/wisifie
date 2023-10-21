@@ -1,8 +1,14 @@
 ---
 import PersonLandingSection from "../components/PersonLandingSection.astro";
+
+const { influencer } = Astro.props;
+console.log({ influencer });
 ---
 
 <div class="bg-orange-100 flex flex-col">
-  <PersonLandingSection />
+  <PersonLandingSection
+    description={influencer?.description}
+    image_url={influencer?.image_url}
+  />
   <slot />
 </div>
