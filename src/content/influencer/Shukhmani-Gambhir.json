@@ -14,7 +14,7 @@
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
       "buy_tagline": "Buy This Saree",
-      "dm_tagline": "DM for purchase"
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image3.svg",
@@ -23,7 +23,7 @@
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
       "buy_tagline": "Buy This Dress",
-      "dm_tagline": "DM for purchase"
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image4.svg",
@@ -32,7 +32,7 @@
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 3499,
       "buy_tagline": "Buy This Saree",
-      "dm_tagline": "DM for purchase"
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image5.svg",
@@ -50,7 +50,7 @@
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 48000,
       "buy_tagline": "Buy This Dress",
-      "dm_tagline": "DM for purchase"
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Shukhmani-Gambhir/image7.svg",
@@ -58,7 +58,7 @@
       "is_dm": true,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 0,
-      "buy_tagline": "Buy The Sports Bra",
+      "buy_tagline": "",
       "dm_tagline": "DM To Buy This Dress"
     },
     {
@@ -68,7 +68,7 @@
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 2599,
       "buy_tagline": "Buy This Dress",
-      "dm_tagline": "DM for purchase"
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     }
   ]
 }

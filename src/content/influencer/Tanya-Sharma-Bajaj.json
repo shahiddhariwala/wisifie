@@ -5,7 +5,7 @@
   "description": "Famously known as Whattanyawore",
   "total_followers": "644K Followers",
   "image_url": "/assets/images/Tanya-Sharma-Bajaj/image1.svg",
-  "quote_url":"/assets/images/Tanya-Sharma-Bajaj/quote.svg",
+  "quote_url": "/assets/images/Tanya-Sharma-Bajaj/quote.svg",
   "accessories": [
     {
       "image_url": "/assets/images/Tanya-Sharma-Bajaj/image2.svg",
@@ -13,7 +13,8 @@
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Tanya-Sharma-Bajaj/image3.svg",
@@ -21,7 +22,8 @@
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Tanya-Sharma-Bajaj/image4.svg",
@@ -29,7 +31,8 @@
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Tanya-Sharma-Bajaj/image5.svg",
@@ -37,7 +40,8 @@
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Tanya-Sharma-Bajaj/image6.svg",
@@ -45,7 +49,8 @@
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Tanya-Sharma-Bajaj/image7.svg",
@@ -53,7 +58,8 @@
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Tanya-Sharma-Bajaj/image8.svg",
@@ -61,7 +67,8 @@
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     }
   ]
 }
