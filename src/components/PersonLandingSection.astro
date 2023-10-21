@@ -1,13 +1,12 @@
 ---
 import { Image } from "astro:assets";
-import PersonLandingImage from "../content/images/boho-title-image.svg";
-
 interface Props {
   name?: string;
   description?: string;
   total_followers?: string;
   social_media_handle?: string;
-  image_url: any;
+  id: string;
+  image_url: string;
 }
 
 const {
@@ -15,8 +14,12 @@ const {
   total_followers = "1.8M Followers",
   description = "I believe that fashion is a way to express yourself and have fun, so I'm not afraid to experiment with different trends and styles.",
   social_media_handle = "thatbohogirl",
-  image_url = "",
+  id,
+  image_url,
+  ...rest
 } = Astro.props;
+
+console.log({ rest });
 ---
 
 <section class="self-stretch flex flex-col max-md:max-w-full">
@@ -42,7 +45,14 @@ const {
         </div>
       </div>
       <div class="flex flex-col-reverse items-stretch w-auto">
-        <Image src={image_url} alt=`${name} image` width="260" height="360" />
+        <Image
+          src={image_url}
+          alt=`${name} image`
+          width="260"
+          height="360"
+          format="webp"
+          loading="lazy"
+        />
       </div>
     </div>
   </header>
