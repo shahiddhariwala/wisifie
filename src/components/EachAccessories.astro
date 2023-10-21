@@ -19,7 +19,7 @@ const isEven = (index + 1) % 2 == 0;
 ---
 
 <div
-  class=`flex self-center items-end max-w-[595px] w-full gap-12 justify-start z-30 ${isEven ? "flex-row-reverse": ""}`
+  class=`flex items-center justify-center p-5 self-center md:items-end max-w-[595px] w-full md:gap-12 gap-3 md:justify-start z-30 ${isEven ? "flex-row-reverse": ""}`
 >
   <div class=`flex  items-center  ${isEven ? "flex-col-reverse": "flex-col"}`>
     <AccessoriesImage image_url={image_url} alt={hashtag} />
