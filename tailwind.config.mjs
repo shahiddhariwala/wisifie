@@ -13,6 +13,7 @@ export default {
         "text-pink": "#B47C7B",
         "light-pink": "#F5E2CF",
         "dark-pink": "#CCA298",
+        "bold-pink": "#A36261",
         white: {
           follower: "#FFEDEE",
         },

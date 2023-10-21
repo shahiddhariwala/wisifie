@@ -3,6 +3,6 @@ import EachAccessories from "./EachAccessories.astro";
 const { accessories } = Astro.props;
 ---
 
-<div class="bg-light-pink">
+<div class="pt-12 flex w-full flex-col gap-4">
   {accessories?.map((acc) => <EachAccessories accessory={acc} />)}
 </div>
