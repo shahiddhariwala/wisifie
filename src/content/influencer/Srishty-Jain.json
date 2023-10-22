@@ -5,63 +5,77 @@
   "description": "Happy Dose of Indian Outfit",
   "total_followers": "106K Followers",
   "image_url": "/assets/images/Srishty-Jain/image1.svg",
-  "quote_url":"/assets/images/Srishty-Jain/quote.svg",
+  "quote_url": "/assets/images/Srishty-Jain/quote.svg",
   "accessories": [
     {
       "image_url": "/assets/images/Srishty-Jain/image2.svg",
       "hashtag": "#EthnicLuncheon",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 1399,
+      "buy_tagline": "Buy This Kurta",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Srishty-Jain/image3.svg",
-      "hashtag": "#FloralFlush",
+      "hashtag": "#RainbowFlush",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 1416,
+      "buy_tagline": "Buy This Saree",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Srishty-Jain/image4.svg",
       "hashtag": "#EthnicLuncheon",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 1425,
+      "buy_tagline": "Buy This Kurta",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Srishty-Jain/image5.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#EthnicDinnerDiaries",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 2270,
+      "buy_tagline": "Buy The Kurti Set",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Srishty-Jain/image6.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#VelvetVierra",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 796,
+      "buy_tagline": "Buy This Kurta Set",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Srishty-Jain/image7.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#EthnicDinnerDiaries",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 3440,
+      "buy_tagline": "Buy This Kurti Set",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Srishty-Jain/image8.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#FolkFunk",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 1572,
+      "buy_tagline": "Buy This Kurta Set",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     }
   ]
 }
