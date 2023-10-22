@@ -5,63 +5,77 @@
   "description": "Let’s make styling a therapy. I am a Dog mum, a Tea addict and an Outfit repeater.",
   "total_followers": "1.7M Followers",
   "image_url": "/assets/images/Isha-Bora/image1.svg",
-  "quote_url":"/assets/images/Isha-Bora/quote.svg",
+  "quote_url": "/assets/images/Isha-Bora/quote.svg",
   "accessories": [
     {
       "image_url": "/assets/images/Isha-Bora/image2.svg",
       "hashtag": "#EthnicLuncheon",
-      "is_dm": false,
+      "is_dm": true,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 2800,
+      "buy_tagline": "Buy This Salwar Set",
+      "dm_tagline": "DM To Get The Jewellery",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Isha-Bora/image3.svg",
-      "hashtag": "#FloralFlush",
+      "hashtag": "#EthnicDinnerDiaries",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 18000,
+      "buy_tagline": "Buy This Look",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Isha-Bora/image4.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#FloralFlush",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 5980,
+      "buy_tagline": "Buy This Kurta Set",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Isha-Bora/image5.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#EthnicDinnerDiaries",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 3900,
+      "buy_tagline": "Buy This Anarkali Dress",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Isha-Bora/image6.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#VelvetVierra",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 7500,
+      "buy_tagline": "Buy This Saree",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Isha-Bora/image7.svg",
       "hashtag": "#EthnicLuncheon",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price":  285000,
+      "buy_tagline": "Buy This Lehenga",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/Isha-Bora/image8.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#FolkFunk",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 13800,
+      "buy_tagline": "Buy This Saree",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     }
   ]
 }
