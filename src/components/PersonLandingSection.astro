@@ -20,7 +20,7 @@ const {
 
 <section class="self-stretch flex flex-col max-md:max-w-full">
   <header
-    class="bg-section-red self-stretch flex flex-col bg-hero-pattern bg-cover px-[20px] pt-[40px] md:px-0 md:pt-0"
+    class="bg-section-red self-stretch flex flex-col bg-hero-pattern bg-cover px-6 pt-[40px] md:px-0 md:pt-0"
   >
     <div
       class="self-center items-end flex max-w-[595px] w-full justify-between md:min-h-[400px] md:content-evenly"
@@ -28,29 +28,44 @@ const {
       <div class="flex flex-col h-full pb-[38px] max-w-[216px] md:w-max w-1/2">
         <div class="flex flex-col">
           <p
-            class="whitespace-pre-line text-text-pink md:text-[17px] text-sm w-full max-w-14 pr-3 md:pr-0"
+            class="whitespace-pre-line text-text-pink md:text-[17px] text-[10px] md:text-sm w-full max-w-14 pr-3 md:pr-0"
           >
             {description}
           </p>
-          <p class="text-white-follower md:text-lg text-base w-full mt-[14px]">
+          <p
+            class="text-white-follower md:text-lg text-[10px] w-full mt-[14px]"
+          >
             {total_followers}
           </p>
           <h1
-            class="text-white-follower md:text-xl text-lg font-bold mt-[6px] font-followers"
+            class="text-white-follower md:text-xl text-sm font-bold mt-[6px] font-followers"
           >
             @{social_media_handle}
           </h1>
         </div>
       </div>
       <div class="flex flex-col-reverse items-stretch w-auto">
-        <Image
-          src={image_url}
-          alt=`${name} image`
-          width="260"
-          height="360"
-          format="webp"
-          loading="lazy"
-        />
+        <div class="block md:hidden">
+          <Image
+            src={image_url}
+            alt=`${name} image`
+            width="154"
+            height="218"
+            format="webp"
+            loading="lazy"
+          />
+        </div>
+        <div class="hidden md:block">
+          <Image
+            src={image_url}
+            alt=`${name} image`
+            width="260"
+            height="360"
+            format="webp"
+            loading="lazy"
+            class="md:block"
+          />
+        </div>
       </div>
     </div>
   </header>
