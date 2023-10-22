@@ -5,63 +5,77 @@
   "description": "I believe that fashion is a way to express yourself and have fun, so I'm not afraid to experiment with different trends and styles.",
   "total_followers": "1.8M Followers",
   "image_url": "/assets/images/That-Boho-Girl/image1.svg",
-  "quote_url":"/assets/images/That-Boho-Girl/quote.svg",
+  "quote_url": "/assets/images/That-Boho-Girl/quote.svg",
   "accessories": [
     {
       "image_url": "/assets/images/That-Boho-Girl/image2.svg",
       "hashtag": "#EthnicLuncheon",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 1435,
+      "buy_tagline": "Buy This Dress",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/That-Boho-Girl/image3.svg",
+      "hashtag": "#EthnicDinnerDates",
+      "is_dm": false,
+      "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
+      "price": 1200,
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+    },
+    {
+      "image_url": "/assets/images/That-Boho-Girl/image4.svg",
       "hashtag": "#FloralFlush",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
-    },
-    {
-      "image_url": "/assets/images/That-Boho-Girl/image4.svg",
-      "hashtag": "#EthnicLuncheon",
-      "is_dm": false,
-      "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/That-Boho-Girl/image5.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#WholesomeWedding",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/That-Boho-Girl/image6.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#MustardMondays",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/That-Boho-Girl/image7.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#RoyalDinner",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
       "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "buy_tagline": "Buy The Sports Bra",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     },
     {
       "image_url": "/assets/images/That-Boho-Girl/image8.svg",
-      "hashtag": "#EthnicLuncheon",
+      "hashtag": "#FloralFlush",
       "is_dm": false,
       "buy_link": "https://anjanase.com/collections/lehenga/products/green-cotton-lehenga-set",
-      "price": 1200,
-      "buy_tagline": "Buy The Sports Bra", "dm_tagline": "DM for purchase", "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
+      "price": 0,
+      "buy_tagline": "Buy This Dress",
+      "dm_tagline": "DM for purchase",
+      "dm_link": "https://youtu.be/q2EOQI3MB90?si=hS8U6OKMI6-_FEBw"
     }
   ]
 }
