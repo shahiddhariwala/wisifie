@@ -1,5 +1,7 @@
 ---
 import { Image } from "astro:assets";
+import { Img } from "astro-imagetools/components";
+
 interface Props {
   name?: string;
   description?: string;
@@ -43,12 +45,11 @@ const {
         </div>
       </div>
       <div class="flex flex-col-reverse items-stretch w-auto">
-        <Image
+        <Img
           src={image_url}
           alt=`${name} image`
           width="260"
           height="360"
-          format="webp"
           loading="lazy"
         />
       </div>
