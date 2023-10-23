@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 import RedirectIcon from "../assets/shop-redirect-icon.svg";
 import RedirectIconMd from "../assets/shop-redirect-icon-md.svg";
-const { name = "Shukmani Gambhir", image_url = "", index= 1 } = Astro.props;
+const { name = "Shukmani Gambhir", image_url = "", index= 1 , id="Shukhmani Gambhir"} = Astro.props;
 const isEven = (index + 1) % 2 == 0;
 ---
 
@@ -13,9 +13,9 @@ const isEven = (index + 1) % 2 == 0;
   <div class=`${isEven ? "-mr-[20px] pr-[10px]":"-ml-[20px] pl-[20px]"} bg-dark-pink rounded-full`>
 
     <a
-    
+    href={`/#${id}`}
     class="px-3 py-[6px] drop-shadow-xl flex gap-1 text-semi-bold w-max items-center"
-    target="_blank"
+    
   >
     {name}
     <span class="block md:hidden w-min-4 h-min-4">

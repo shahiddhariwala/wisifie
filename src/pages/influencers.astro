@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import InformationLayout from "../layouts/InformationLayout.astro";
 import InfluencerProfileChip from "../components/InfluencerProfileChip.astro";
+import { ViewTransitions } from 'astro:transitions';
 
 const allInFluencers = await getCollection("influencer");
 const sortedInfluencers = allInFluencers?.sort(
@@ -12,5 +13,11 @@ console.log({ sortedInfluencers });
 ---
 
 <BaseLayout title="Influencers">
-  <InformationLayout title="Infleuncers">{sortedInfluencers.map((each, index) => <InfluencerProfileChip image_url={each?.data?.image_url} name={each?.data?.name} index={index}/>)}</InformationLayout>
+    <ViewTransitions />
+  <InformationLayout title="Infleuncers">
+    {sortedInfluencers.map((each, index) => <InfluencerProfileChip image_url={each?.data?.image_url} 
+    name={each?.data?.name} 
+    index={index} 
+    id={each?.data?.social_media_handle}/>)}
+</InformationLayout>
 </BaseLayout>
