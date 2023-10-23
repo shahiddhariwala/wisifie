@@ -1,24 +1,43 @@
 ---
 const { image_url, alt = "A description of my image." } = Astro.props;
-//
+
+const isEnlarged = true;
 ---
 
-<img
-  class="hidden md:block rounded-3xl drop-shadow-2xl"
-  src={image_url}
-  width="240"
-  height="352"
-  decoding="async"
-  loading="lazy"
-  alt={alt}
-/>
+{
+  isEnlarged ? (
+    <>
+      <img
+        class="drop-shadow-2xl"
+        src={image_url}
+        width="240"
+        height="352"
+        decoding="async"
+        loading="lazy"
+        alt={alt}
+      />
+    </>
+  ) : (
+    <>
+      <img
+        class="md:block rounded-3xl drop-shadow-2xl"
+        src={image_url}
+        width="240"
+        height="352"
+        decoding="async"
+        loading="lazy"
+        alt={alt}
+      />
 
-<img
-  class="md:hidden block rounded-3xl drop-shadow-2xl"
-  src={image_url}
-  width="146"
-  height="212"
-  decoding="async"
-  loading="lazy"
-  alt={alt}
-/>
+      <img
+        class="hidden md:hidden rounded-3xl drop-shadow-2xl"
+        src={image_url}
+        width="146"
+        height="212"
+        decoding="async"
+        loading="lazy"
+        alt={alt}
+      />
+    </>
+  )
+}
