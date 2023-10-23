@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('./assets/spiral-bg-1.svg')",
+        "hero-pattern": "url('/assets/spiral-bg-1.svg')",
       },
       colors: {
         "section-red": "#753032",
@@ -27,6 +27,11 @@ export default {
         ...defaultTheme.fontFamily.sans,
       ],
       followers: ["Inter", ...defaultTheme.fontFamily.sans],
+    },
+    theme: {
+      fontSize: {
+        title: "15px",
+      },
     },
   },
   plugins: [],
