@@ -16,6 +16,8 @@ const {
   social_media_handle = "thatbohogirl",
   image_url,
 } = Astro.props;
+
+const isEnlarged = true;
 ---
 
 <section class="self-stretch flex flex-col max-md:max-w-full">
@@ -45,27 +47,43 @@ const {
         </div>
       </div>
       <div class="flex flex-col-reverse items-stretch w-auto">
-        <div class="block md:hidden">
-          <Image
-            src={image_url}
-            alt=`${name} image`
-            width="154"
-            height="218"
-            format="webp"
-            loading="lazy"
-          />
-        </div>
-        <div class="hidden md:block">
-          <Image
-            src={image_url}
-            alt=`${name} image`
-            width="260"
-            height="360"
-            format="webp"
-            loading="lazy"
-            class="md:block"
-          />
-        </div>
+        {
+          isEnlarged ? (
+            <Image
+              src={image_url}
+              alt={`${name} image`}
+              width="260"
+              height="360"
+              format="webp"
+              loading="lazy"
+              class="md:block"
+            />
+          ) : (
+            <>
+              <div class="block md:hidden">
+                <Image
+                  src={image_url}
+                  alt={`${name} image`}
+                  width="154"
+                  height="218"
+                  format="webp"
+                  loading="lazy"
+                />
+              </div>
+              <div class="hidden md:block">
+                <Image
+                  src={image_url}
+                  alt={`${name} image`}
+                  width="260"
+                  height="360"
+                  format="webp"
+                  loading="lazy"
+                  class="md:block"
+                />
+              </div>
+            </>
+          )
+        }
       </div>
     </div>
   </header>
