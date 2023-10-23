@@ -11,7 +11,7 @@ const sortedInfluencers = allInFluencers?.sort(
 );
 ---
 <ViewTransitions />
-<Layout title="Wisifie.com">
+<Layout title="Wisifie.com" transition:animate="slide">
   {
     sortedInfluencers?.map((influencer) => (
       <InfluencerLayout influencer={influencer} />

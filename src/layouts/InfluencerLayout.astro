@@ -6,7 +6,7 @@ import QuotesSection from "../components/QuotesSection.astro";
 const { influencer } = Astro.props;
 ---
 
-<div class="bg-orange-100 flex flex-col" id={influencer?.data?.social_media_handle}>
+<div class="bg-orange-100 flex flex-col" id={influencer?.data?.social_media_handle}  >
   <PersonLandingSection {...influencer?.data} />
   <AccessoriesSection accessories={influencer?.data?.accessories} />
   <QuotesSection quote_url={influencer?.data?.quote_url} />
