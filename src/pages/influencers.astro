@@ -1,8 +1,16 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import InformationLayout from "../layouts/InformationLayout.astro";
+import InfluencerProfileChip from "../components/InfluencerProfileChip.astro";
+
+const allInFluencers = await getCollection("influencer");
+const sortedInfluencers = allInFluencers?.sort(
+  (a, b) => a?.data?.order - b?.data?.order
+);
+console.log({ sortedInfluencers });
 ---
 
 <BaseLayout title="Influencers">
-  <InformationLayout title="Infleuncers">Hello</InformationLayout>
+  <InformationLayout title="Infleuncers">{sortedInfluencers.map((each, index) => <InfluencerProfileChip image_url={each?.data?.image_url} name={each?.data?.name} index={index}/>)}</InformationLayout>
 </BaseLayout>

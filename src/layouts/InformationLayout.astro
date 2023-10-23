@@ -2,9 +2,9 @@
 const { title = "Infleuncers" } = Astro.props;
 ---
 
-<section class="relative h-[100dvh] bg-light-pink">
+<section class="relative min-h-[100dvh] bg-light-pink z-20">
   <div
-    class="bg-cover bg-hero-pattern absolute top-0 w-full min-h-[220px] mix-blend-overlay"
+    class="bg-cover bg-hero-pattern absolute top-0 w-full min-h-[220px] mix-blend-overlay -z-10"
   >
   </div>
   <header
@@ -13,7 +13,10 @@ const { title = "Infleuncers" } = Astro.props;
     {title}
   </header>
 
-  <slot />
+  <section class="pl-9 pr-9 pt-10 w-full h-max">
+    <slot />
+  </section>
+  
   <div class="bottom-fade fixed bottom-0 w-full h-[10%]"></div>
 </section>
 <style>
