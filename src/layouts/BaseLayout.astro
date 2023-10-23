@@ -22,10 +22,27 @@ const { title } = Astro.props;
       property="og:description"
       content="Wisifie is the premier destination for finding your dream dress!"
     />
-    <meta property="og:image" content="https://res.cloudinary.com/dspfacgon/image/upload/f_auto,q_auto/wisifieogimage" />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/dspfacgon/image/upload/f_auto,q_auto/wisifieogimage"
+    />
     <meta property="og:url" content="https://wisifie.vercel.app/" />
 
     <title>{title}</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      is:inline
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-1DTPGMQDXJ"></script>
+    <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-1DTPGMQDXJ");
+    </script>
   </head>
   <body>
     <slot />
