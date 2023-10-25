@@ -1,0 +1,83 @@
+{
+    "order": 10,
+    "name": "Arti Chauhan",
+    "social_media_handle": "Arti Chauhan",
+    "description": "I believe that fashion is a way to express yourself and have fun, so I'm not afraid to experiment with different trends and styles.",
+    "total_followers": "130K Followers",
+    "image_url": "/assets/images/Arti-Chauhan/image1.svg",
+    "quote_url": "/assets/images/Arti-Chauhan/quote.svg",
+    "instagram_url":"https://www.instagram.com/akshapathak#",
+    "accessories": [
+      {
+        "image_url": "/assets/images/Arti-Chauhan/image2.svg",
+        "hashtag": "#EthnicLuncheon",
+        "is_dm": false,
+        "buy_link": "https://www.ekanya.in/products/green-emb-chanderi-mirror-work-lehenga-set?_pos=1&_sid=422ed49f6&_ss=r",
+        "price": 16933,
+        "buy_tagline": "Buy This lehenga Set",
+        "dm_tagline": "DM for purchase",
+        "dm_link": "https://www.instagram.com/akshapathak#"
+      },
+      {
+        "image_url": "/assets/images/Arti-Chauhan/image3.svg",
+        "hashtag": "#FloralFlush",
+        "is_dm": false,
+        "buy_link": "https://www.libas.in/products/green-embroidered-georgette-peplum-top-with-palazzos-and-potli-34050",
+        "price": 1499,
+        "buy_tagline": "Buy This Dress",
+        "dm_tagline": "DM for purchase",
+        "dm_link": "https://www.instagram.com/akshapathak#"
+      },
+      {
+        "image_url": "/assets/images/Arti-Chauhan/image4.svg",
+        "hashtag": "#EthnicLuncheon",
+        "is_dm": false,
+        "buy_link": "https://www.libas.in/products/mustard-embroidered-georgette-anarkali-sharara-suit-set-35123",
+        "price": 1799,
+        "buy_tagline": "Buy This Kurta Set",
+        "dm_tagline": "DM for purchase",
+        "dm_link": "https://www.instagram.com/akshapathak#"
+      },
+      {
+        "image_url": "/assets/images/Arti-Chauhan/image5.svg",
+        "hashtag": "#EthnicDinnerDiaries",
+        "is_dm": false,
+        "buy_link": "https://www.libas.in/products/yellow-printed-georgette-a-line-suit-set-35018",
+        "price": 1439,
+        "buy_tagline": "Buy This Kurta Set",
+        "dm_tagline": "DM for purchase",
+        "dm_link": "https://www.instagram.com/akshapathak#"
+      },
+      {
+        "image_url": "/assets/images/Arti-Chauhan/image6.svg",
+        "hashtag": "#VelvetVierra",
+        "is_dm": false,
+        "buy_link": "https://www.libas.in/products/grey-printed-georgette-anarkali-suit-set-35046",
+        "price": 1295,
+        "buy_tagline": "Buy This Dress",
+        "dm_tagline": "DM for purchase",
+        "dm_link": "https://www.instagram.com/akshapathak#"
+      },
+      {
+        "image_url": "/assets/images/Arti-Chauhan/image7.svg",
+        "hashtag": "#EthnicDinnerDiaries",
+        "is_dm": false,
+        "buy_link": "https://www.rangriti.com/pink-viscose-kalidar-dress/p/18185265/15066387",
+        "price": 1799,
+        "buy_tagline": "Buy This Kurta",
+        "dm_tagline": "DM for purchase",
+        "dm_link": "https://www.instagram.com/akshapathak#"
+      },
+      {
+        "image_url": "/assets/images/Arti-Chauhan/image8.svg",
+        "hashtag": "#FolkFunk",
+        "is_dm": false,
+        "buy_link": "https://leemboodi.com/collections/kurta-set/products/black-kurti-with-pant-and-dupatta-4?_pos=14&_fid=b2c0a1457&_ss=c&atgSessionId=kvEnwjYWfxx8a4HjivkD6T_p3282591&utm_source=wishlink&utm_medium=wishlink.com",
+        "price": 929,
+        "buy_tagline": "Buy This Kurti Set",
+        "dm_tagline": "DM for purchase",
+        "dm_link": "https://www.instagram.com/akshapathak#"
+      }
+    ]
+  }
+  
