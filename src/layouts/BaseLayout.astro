@@ -47,6 +47,27 @@ const { title } = Astro.props;
   <body>
     <slot />
   </body>
+  <script is:inline>
+  document.body.addEventListener("click", (e) => {
+    // Get the anchor tag element that was clicked.
+    const anchorTag = e.target;
+
+    // Check if the anchor tag has the data-link, data-price, and data-influencer-name attributes.
+    if (
+      anchorTag.hasAttribute("data-link") &&
+      anchorTag.hasAttribute("data-price") &&
+      anchorTag.hasAttribute("data-influencer-name")
+    ) {
+      // Get the values of the data attributes.
+      const link = anchorTag.getAttribute("data-link");
+      const price = anchorTag.getAttribute("data-price");
+      const influencerName = anchorTag.getAttribute("data-influencer-name");
+
+      // Log the values of the data attributes to the console.
+      console.log({ link, price, influencerName });
+    }
+  });
+  </script>
 </html>
 <style is:global>
   :root {

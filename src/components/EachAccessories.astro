@@ -1,10 +1,11 @@
 ---
 import { Image } from "astro:assets";
 import AccessoriesImage from "./AccessoriesImage.astro";
-const { accessory, index } = Astro.props;
+
 import RedirectIcon from "../assets/shop-redirect-icon.svg";
 import RedirectIconMd from "../assets/shop-redirect-icon-md.svg";
 
+const { accessory, index, name } = Astro.props;
 const {
   image_url,
   hashtag = "#EthnicLuncheon",
@@ -38,6 +39,9 @@ const isEven = (index + 1) % 2 == 0;
             class="bg-dark-pink rounded-full md:px-4 md:py-3 px-[10px] py-[6px] z-10 w-max flex md:gap-2 gap-1 items-center"
             href={buy_link}
             target="_blank"
+            data-link={buy_link}
+            data-price={price}
+            data-influencer-name={name}
           >
             {buy_tagline}
             <span class="block md:hidden">
