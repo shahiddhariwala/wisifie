@@ -7,7 +7,14 @@
   const sortedInfluencers = $$props?.sortedInfluencers;
 </script>
 
-<button on:click={() => (showModal = true)}> Show Modal </button>
+<button on:click={() => (showModal = true)}>
+  <img
+    height="36"
+    width="36"
+    src="/assets/hamburger-menu.svg"
+    alt="hamburger"
+  /></button
+>
 
 <Modal bind:showModal>
   <InformationLayout title="Infleuncers">
@@ -25,4 +32,12 @@
 </Modal>
 
 <style>
+  button {
+    all: unset;
+    width: max-content;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 9999999;
+  }
 </style>
