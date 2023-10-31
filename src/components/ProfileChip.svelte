@@ -7,7 +7,7 @@
   const isEven = (index + 1) % 2 == 0;
 </script>
 
-<div class={`flex items-center ${isEven ? "flex-row-reverse" : ""}`}>
+<div class={`flex items-center ${isEven ? "flex-row-reverse" : ""}`} on:click >
   <div
     class="rounded-full border-4 border-dark-pink w-[77px] h-[77px] overflow-hidden z-30"
   >

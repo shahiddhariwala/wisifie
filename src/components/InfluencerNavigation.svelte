@@ -24,6 +24,9 @@
         name={influencer?.data?.name}
         {index}
         id={influencer?.data?.social_media_handle}
+        on:click={() => {
+          showModal = false;
+        }}
       />
     {/each}
   </InformationLayout>
