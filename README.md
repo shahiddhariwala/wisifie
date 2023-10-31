@@ -1,54 +1,51 @@
-# Astro Starter Kit: Basics
+# StyleMyAss - Festive Outfits from Fashion Influencers 🛍️👗💃
 
-```sh
-npm create astro@latest -- --template basics
-```
+StyleMyAss is a web application that allows you to shop the trendiest festive and wedding outfits as recommended by fashion influencers on Instagram. These fashionistas, including Ashna Shroff, That Boho Girl, Sukhmani Gambhir, and many more, have millions of devoted followers for a reason – they're the style gurus we all aspire to be.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+![StyleMyAss Landing Page](https://github.com/shahiddhariwala/wisifie/blob/master/public/OgImage.png)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+## Table of Contents
 
-## 🚀 Project Structure
+- [About StyleMyAss](#about-stylemyass)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Inside of your Astro project, you'll see the following folders and files:
+---
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## About StyleMyAss
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Imagine being able to browse and shop for the latest festive and wedding outfits directly from the recommendations of top fashion influencers. StyleMyAss isn't just another online store; it's a vibrant community for fashion enthusiasts. Here, you can find inspiration and shop for outfits that match your style aspirations.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+---
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Features
 
-## 🧞 Commands
+- Discover trending festive and wedding outfits from renowned fashion influencers.
+- Browse a wide range of outfit categories and styles.
+- Get detailed information about each outfit, including price and availability.
+- Easily shop for your favorite looks from multiple e-commerce platforms.
+- User-friendly interface and easy navigation.
 
-All commands are run from the root of the project, from a terminal:
+---
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Tech Stack
 
-## 👀 Want to learn more?
+- [Astro](https://astro.build/): A modern front-end framework for faster and more efficient websites.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for quickly building custom designs.
+- [Mixpanel](https://mixpanel.com/): A comprehensive analytics platform for tracking user interactions and behavior.
+- [Google Analytics](https://analytics.google.com/): Web analytics service to monitor website traffic and performance.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+---
+
+## Getting Started
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/yourusername/wisifie.git
