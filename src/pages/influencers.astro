@@ -9,7 +9,6 @@ const allInFluencers = await getCollection("influencer");
 const sortedInfluencers = allInFluencers?.sort(
   (a, b) => a?.data?.order - b?.data?.order
 );
-console.log({ sortedInfluencers });
 ---
 
 <BaseLayout title="Influencers">
