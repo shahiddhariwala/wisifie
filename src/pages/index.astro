@@ -4,6 +4,7 @@ import InfluencerLayout from "../layouts/InfluencerLayout.astro";
 import { ViewTransitions } from "astro:transitions";
 
 import { getCollection } from "astro:content";
+import InfluencerNavigation from "../components/InfluencerNavigation.svelte";
 
 const allInFluencers = await getCollection("influencer");
 const sortedInfluencers = allInFluencers?.sort(
@@ -12,7 +13,9 @@ const sortedInfluencers = allInFluencers?.sort(
 ---
 
 <ViewTransitions />
+
 <Layout title="StyleMyAss.com" transition:animate="slide">
+  <InfluencerNavigation client:only sortedInfluencers={sortedInfluencers} />
   {
     sortedInfluencers?.map((influencer) => (
       <InfluencerLayout influencer={influencer} />
