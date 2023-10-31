@@ -12,7 +12,7 @@
     {title}
   </header>
 
-  <section class="px-9 pt-24 pb-48 overflow-y-scroll w-full h-max">
+  <section class="px-9 pt-24 pb-44 overflow-y-scroll w-full h-max">
     <slot />
   </section>
 
