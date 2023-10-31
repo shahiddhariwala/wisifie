@@ -1,7 +1,7 @@
 ---
 import Layout from "../layouts/BaseLayout.astro";
 import InfluencerLayout from "../layouts/InfluencerLayout.astro";
-import { ViewTransitions } from 'astro:transitions';
+import { ViewTransitions } from "astro:transitions";
 
 import { getCollection } from "astro:content";
 
@@ -10,8 +10,9 @@ const sortedInfluencers = allInFluencers?.sort(
   (a, b) => a?.data?.order - b?.data?.order
 );
 ---
+
 <ViewTransitions />
-<Layout title="Wisifie.com" transition:animate="slide">
+<Layout title="StyleMyAss.com" transition:animate="slide">
   {
     sortedInfluencers?.map((influencer) => (
       <InfluencerLayout influencer={influencer} />
