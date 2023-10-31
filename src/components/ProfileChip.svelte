@@ -1,8 +1,4 @@
 <script>
-  import Image from "astro:assets";
-  import RedirectIcon from "../assets/shop-redirect-icon.svg";
-  import RedirectIconMd from "../assets/shop-redirect-icon-md.svg";
-
   export let name = "Shukmani Gambhir";
   export let image_url = "";
   export let index = 1;
@@ -15,7 +11,7 @@
   <div
     class="rounded-full border-4 border-dark-pink w-[77px] h-[77px] overflow-hidden z-30"
   >
-    <Image src={image_url} loading="lazy" width="77" height="77" />
+    <img src={image_url} loading="lazy" width="77" height="77" />
   </div>
   <div
     class={`${
@@ -28,10 +24,15 @@
     >
       {name}
       <span class="block md:hidden w-min-4 h-min-4">
-        <Image src={RedirectIcon} alt="redirect-icon" height={24} width={24} />
+        <img
+          src="/assets/shop-redirect-icon.svg"
+          alt="redirect-icon"
+          height={24}
+          width={24}
+        />
       </span>
       <span class="hidden md:block w-min-4 h-min-4">
-        <Image src={RedirectIconMd} alt="redirect-icon" />
+        <img src="/assets/shop-redirect-icon-md.svg" alt="redirect-icon" />
       </span>
     </a>
   </div>

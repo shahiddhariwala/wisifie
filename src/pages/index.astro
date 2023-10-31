@@ -15,7 +15,7 @@ const sortedInfluencers = allInFluencers?.sort(
 <ViewTransitions />
 
 <Layout title="StyleMyAss.com" transition:animate="slide">
-  <InfluencerNavigation client:only sortedInfluencers={sortedInfluencers} />
+  <InfluencerNavigation client:load sortedInfluencers={sortedInfluencers} />
   {
     sortedInfluencers?.map((influencer) => (
       <InfluencerLayout influencer={influencer} />

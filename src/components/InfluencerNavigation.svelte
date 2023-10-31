@@ -5,10 +5,8 @@
   let showModal = false;
 
   const sortedInfluencers = $$props?.sortedInfluencers;
-  console.log({ props: $$props });
 </script>
 
-<div />
 <button on:click={() => (showModal = true)}> Show Modal </button>
 
 <Modal bind:showModal>
@@ -27,9 +25,4 @@
 </Modal>
 
 <style>
-  div {
-    width: 100vw;
-    background-color: red;
-    height: 100px;
-  }
 </style>
