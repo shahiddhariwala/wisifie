@@ -30,8 +30,6 @@
       />
     {/each}
   </InformationLayout>
-
-  Test Shahid Dhariwala Rocks
 </Modal>
 
 <style>
