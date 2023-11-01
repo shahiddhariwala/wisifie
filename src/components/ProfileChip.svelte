@@ -11,7 +11,9 @@
   <div
     class="rounded-full border-4 border-dark-pink w-[77px] h-[77px] overflow-hidden z-30"
   >
-    <img src={image_url} loading="lazy" width="77" height="77" />
+    <a href={`/#${id}`}>
+      <img src={image_url} loading="lazy" width="77" height="77" />
+    </a>
   </div>
   <div
     class={`${
