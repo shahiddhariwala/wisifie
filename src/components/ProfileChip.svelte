@@ -7,7 +7,7 @@
   const isEven = (index + 1) % 2 == 0;
 </script>
 
-<div class={`flex items-center ${isEven ? "flex-row-reverse" : ""}`} on:click >
+<div class={`flex items-center ${isEven ? "flex-row-reverse" : ""}`} on:click>
   <div
     class="rounded-full border-4 border-dark-pink w-[77px] h-[77px] overflow-hidden z-30"
   >
@@ -23,7 +23,7 @@
       class="px-3 py-[6px] drop-shadow-xl flex gap-1 text-semi-bold w-max items-center"
     >
       {name}
-      <span class="block md:hidden w-min-4 h-min-4">
+      <span class="hidden w-min-4 h-min-4">
         <img
           src="/assets/shop-redirect-icon.svg"
           alt="redirect-icon"
@@ -31,7 +31,7 @@
           width={24}
         />
       </span>
-      <span class="hidden md:block w-min-4 h-min-4">
+      <span class="hidden w-min-4 h-min-4">
         <img src="/assets/shop-redirect-icon-md.svg" alt="redirect-icon" />
       </span>
     </a>
