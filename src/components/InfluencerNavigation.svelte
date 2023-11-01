@@ -26,6 +26,10 @@
         id={influencer?.data?.social_media_handle}
         on:click={() => {
           showModal = false;
+          window.mixpanel.track("Navigation Click", {
+            image_url: influencer?.data?.image_url,
+            influencerName: influencer?.data?.name,
+          });
         }}
       />
     {/each}
