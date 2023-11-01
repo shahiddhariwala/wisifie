@@ -17,7 +17,7 @@
 >
 
 <Modal bind:showModal>
-  <InformationLayout title="Infleuncers">
+  <InformationLayout title="Influencers">
     {#each sortedInfluencers as influencer, index}
       <ProfileChip
         image_url={influencer?.data?.image_url}
