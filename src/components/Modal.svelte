@@ -22,8 +22,8 @@
     <!-- svelte-ignore a11y-autofocus -->
     <button autofocus on:click={() => dialog.close()}
       ><img
-        height="36"
-        width="36"
+        height="50"
+        width="50"
         src="/assets/hamburger-menu.svg"
         alt="hamburger"
       /></button
