@@ -8,13 +8,13 @@ StyleMyAss is a web application that allows you to shop the trendiest festive an
 
 ## Table of Contents
 
-- [About StyleMyAss](#about-stylemyass)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [StyleMyAss - Festive Outfits from Fashion Influencers 🛍️👗💃](#stylemyass---festive-outfits-from-fashion-influencers-️)
+  - [Table of Contents](#table-of-contents)
+  - [About StyleMyAss](#about-stylemyass)
+  - [Features](#features)
+  - [Tech Stack](#tech-stack)
+  - [Getting Started](#getting-started)
+  - [Demos](#demos)
 
 ---
 
@@ -49,3 +49,8 @@ Imagine being able to browse and shop for the latest festive and wedding outfits
 
 ```bash
 git clone https://github.com/yourusername/wisifie.git
+
+
+## Demos
+
+![Influencer in View Event Demo added ](https://github.com/shahiddhariwala/wisifie/blob/master/readme-assets/InflueencerSeenEventAddedUsingIntersectionObserver.mp4)

@@ -1,5 +1,6 @@
 ---
 import { Image } from "astro:assets";
+import InfluencerMountEvent from "./Analytics/InfluencerMountEvent.svelte";
 interface Props {
   name?: string;
   description?: string;
@@ -21,6 +22,12 @@ const isEnlarged = true;
 ---
 
 <section class="self-stretch flex flex-col max-md:max-w-full">
+  <InfluencerMountEvent
+    client:load
+    name={name}
+    handle={social_media_handle}
+    description={description}
+  />
   <header
     class="bg-section-red self-stretch flex flex-col bg-[url('/assets/spiral-bg-1.svg')] bg-cover px-6 pt-[40px] md:px-0 md:pt-0"
   >
