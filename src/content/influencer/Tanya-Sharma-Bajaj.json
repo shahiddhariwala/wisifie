@@ -4,12 +4,12 @@
   "social_media_handle":  "Tanya Sharma Bajaj",
   "description": "Famously known as Whattanyawore",
   "total_followers": "644K Followers",
-  "image_url": "/assets/images/Tanya-Sharma-Bajaj/image1.svg",
-  "quote_url": "/assets/images/Tanya-Sharma-Bajaj/quote.svg",
+  "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Tanya-Sharma-Bajaj/image1.svg",
+  "quote_url": "https://ik.imagekit.io/stylemyass/stylemyass/Tanya-Sharma-Bajaj/quote.svg",
   "instagram_url":"https://www.instagram.com/whattanyawore#",
   "accessories": [
     {
-      "image_url": "/assets/images/Tanya-Sharma-Bajaj/image2.svg",
+      "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Tanya-Sharma-Bajaj/image2.svg",
       "hashtag": "#EthnicLuncheon",
       "is_dm": false,
       "buy_link": "https://sanams.in/products/multi-versailles-3-layer-ruffle-saree",
@@ -19,7 +19,7 @@
       "dm_link": "https://www.instagram.com/whattanyawore#"
     },
     {
-      "image_url": "/assets/images/Tanya-Sharma-Bajaj/image3.svg",
+      "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Tanya-Sharma-Bajaj/image3.svg",
       "hashtag": "#FloralFlush",
       "is_dm": false,
       "buy_link": "https://riantas.com/collections/lehenga/products/reverie-rk46",
@@ -29,7 +29,7 @@
       "dm_link": "https://www.instagram.com/whattanyawore#"
     },
     {
-      "image_url": "/assets/images/Tanya-Sharma-Bajaj/image4.svg",
+      "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Tanya-Sharma-Bajaj/image4.svg",
       "hashtag": "#EthnicLuncheon",
       "is_dm": false,
       "buy_link": "https://narayanivastra.in/products/juhi-egg-white-embroidered-suit-set-1",
@@ -39,7 +39,7 @@
       "dm_link": "https://www.instagram.com/whattanyawore#"
     },
     {
-      "image_url": "/assets/images/Tanya-Sharma-Bajaj/image5.svg",
+      "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Tanya-Sharma-Bajaj/image5.svg",
       "hashtag": "#EthnicDinnerDiaries",
       "is_dm": false,
       "buy_link": "https://www.houseofchikankari.in/products/safa-muslin-a-line-kurta?vsFromReqId=018b3d937423209c6136e82c0d7509",
@@ -49,7 +49,7 @@
       "dm_link": "https://www.instagram.com/whattanyawore#"
     },
     {
-      "image_url": "/assets/images/Tanya-Sharma-Bajaj/image6.svg",
+      "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Tanya-Sharma-Bajaj/image6.svg",
       "hashtag": "#VelvetVierra",
       "is_dm": false,
       "buy_link": "https://www.azafashions.com/products/house-of-chikankari-naji-chikankari-work-mulmul-angrakha/441105",
@@ -59,7 +59,7 @@
       "dm_link": "https://www.instagram.com/whattanyawore#"
     },
     {
-      "image_url": "/assets/images/Tanya-Sharma-Bajaj/image7.svg",
+      "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Tanya-Sharma-Bajaj/image7.svg",
       "hashtag": "#EthnicDinnerDiaries",
       "is_dm": false,
       "buy_link": "https://mahimamahajan.in/collections/lehnga/products/copy-of-meera",
@@ -69,7 +69,7 @@
       "dm_link": "https://www.instagram.com/whattanyawore#"
     },
     {
-      "image_url": "/assets/images/Tanya-Sharma-Bajaj/image8.svg",
+      "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Tanya-Sharma-Bajaj/image8.svg",
       "hashtag": "#FolkFunk",
       "is_dm": false,
       "buy_link": "https://www.tashijaipur.com/productDetails.aspx?pid=155&subcatid=1&price=3999&pron=JANAKI%20BANDHANI%20SUIT%20SET&dis=0%",
