@@ -7,6 +7,7 @@ export default {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('/assets/spiral-bg-1.svg')",
+        intro: "url('/assets/IntroBG.png')",
       },
       colors: {
         "section-red": "#753032",
@@ -14,6 +15,7 @@ export default {
         "light-pink": "#F5E2CF",
         "dark-pink": "#CCA298",
         "bold-pink": "#A36261",
+        "darkest-pink": "#582324",
         white: {
           follower: "#FFEDEE",
         },
