@@ -2,8 +2,9 @@
 import PersonLandingSection from "../components/PersonLandingSection.astro";
 import AccessoriesSection from "../components/AccessoriesSection.astro";
 import QuotesSection from "../components/QuotesSection.astro";
+import FeedbackSection from "../components/FeedbackSection.astro";
 
-const { influencer } = Astro.props;
+const { influencer, index } = Astro.props;
 ---
 
 <div
@@ -16,5 +17,6 @@ const { influencer } = Astro.props;
     name={influencer?.data?.name}
   />
   <QuotesSection quote_url={influencer?.data?.quote_url} />
+  {(index === 4 || index === 9) && <FeedbackSection />}
   <slot />
 </div>

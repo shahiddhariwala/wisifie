@@ -19,8 +19,8 @@ const sortedInfluencers = allInFluencers?.sort(
   <IntroSection />
   <InfluencerNavigation client:load sortedInfluencers={sortedInfluencers} />
   {
-    sortedInfluencers?.map((influencer) => (
-      <InfluencerLayout influencer={influencer} />
+    sortedInfluencers?.map((influencer, index) => (
+      <InfluencerLayout influencer={influencer} index={index} />
     ))
   }
 </Layout>
