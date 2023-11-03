@@ -6,7 +6,13 @@
       Tell us what you feel, we would love to hear your feedback.
     </div>
     <div class="justify-start items-start gap-5 flex">
-      <a href="https://forms.gle/uvhEmdenU4QY58u17" target="_blank">
+      <a
+        href="https://forms.gle/uvhEmdenU4QY58u17"
+        target="_blank"
+        on:click={() => {
+          window.mixpanel.track("Feedback CTA Click");
+        }}
+      >
         <div
           class="h-9 px-3 py-2.5 bg-[#A96F61] text-white rounded-lg justify-center items-center gap-1.5 flex pointer"
         >
