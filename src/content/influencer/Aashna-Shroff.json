@@ -4,12 +4,12 @@
     "social_media_handle": "Aashna Shroff",
     "description": "I believe that fashion is a way to express yourself and have fun, so I'm not afraid to experiment with different trends and styles.",
     "total_followers": "1M Followers",
-    "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Aashna-Shroff/image1.svg",
-    "quote_url": "https://ik.imagekit.io/stylemyass/stylemyass/Aashna-Shroff/quote.svg",
+    "image_url": "/assets/images/Aashna-Shroff/image1.svg",
+    "quote_url": "/assets/images/Aashna-Shroff/quote.svg",
     "instagram_url":"https://www.instagram.com/akshapathak#",
     "accessories": [
       {
-        "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Aashna-Shroff/image2.svg",
+        "image_url": "/assets/images/Aashna-Shroff/image2.svg",
         "hashtag": "#EthnicLuncheon",
         "is_dm": false,
         "buy_link": "https://www2.hm.com/en_in/productpage.0759070007.html?fbclid=PAAaaNJkYKj-YtrTOFt6rm_uTMWhroiA4nE-GXe2QDI9cYeLS7o1tqfSoyOCc_aem_AU9NfhCkS4umflYq3roQtsGVb8k2nK_m69ly9MYmiw6I8vTKviflSuOUrus2f0i_tis",
@@ -19,7 +19,7 @@
         "dm_link": "https://www.instagram.com/akshapathak#"
       },
       {
-        "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Aashna-Shroff/image3.svg",
+        "image_url": "/assets/images/Aashna-Shroff/image3.svg",
         "hashtag": "#FloralFlush",
         "is_dm": false,
         "buy_link": "https://www.vvanivats.com/index.php?route=product/product&product_id=257&search=big+flower",
@@ -29,7 +29,7 @@
         "dm_link": "https://www.instagram.com/akshapathak#"
       },
       {
-        "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Aashna-Shroff/image4.svg",
+        "image_url": "/assets/images/Aashna-Shroff/image4.svg",
         "hashtag": "#EthnicLuncheon",
         "is_dm": false,
         "buy_link": "https://www.azafashions.com/products/nandi-block-print-lehenga-set/291914?utm_country=in&gbraid=0AAAAADh4va3OP9dJtzgkLCXHSsCNmGpHO",
@@ -39,7 +39,7 @@
         "dm_link": "https://www.instagram.com/akshapathak#"
       },
       {
-        "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Aashna-Shroff/image5.svg",
+        "image_url": "/assets/images/Aashna-Shroff/image5.svg",
         "hashtag": "#EthnicDinnerDiaries",
         "is_dm": false,
         "buy_link": "https://www.chameeandpalak.in/collections/celebrity-closet/products/aashna-shroff-in-ivy",
@@ -49,7 +49,7 @@
         "dm_link": "https://www.instagram.com/akshapathak#"
       },
       {
-        "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Aashna-Shroff/image6.svg",
+        "image_url": "/assets/images/Aashna-Shroff/image6.svg",
         "hashtag": "#VelvetVierra",
         "is_dm": false,
         "buy_link": "https://pinkcitybysarika.com/shop/checks-zari-kurta-set/",
@@ -59,7 +59,7 @@
         "dm_link": "https://www.instagram.com/akshapathak#"
       },
       {
-        "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Aashna-Shroff/image7.svg",
+        "image_url": "/assets/images/Aashna-Shroff/image7.svg",
         "hashtag": "#EthnicDinnerDiaries",
         "is_dm": false,
         "buy_link": "https://mahimamahajan.in/collections/lehnga/products/iqra",
@@ -69,7 +69,7 @@
         "dm_link": "https://www.instagram.com/akshapathak#"
       },
       {
-        "image_url": "https://ik.imagekit.io/stylemyass/stylemyass/Aashna-Shroff/image8.svg",
+        "image_url": "/assets/images/Aashna-Shroff/image8.svg",
         "hashtag": "#FolkFunk",
         "is_dm": false,
         "buy_link": "https://www.myntra.com/saree/all-about-you/all-about-you-floral-foil-print-saree/21131000/buy",
